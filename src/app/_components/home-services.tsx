@@ -144,7 +144,7 @@ const HomeServices = () => {
               textTransform: 'capitalize',
             }}
           >
-            What do you need to keep your business growing?
+            Everything you need to grow online.
           </Typography>
           <Typography
             sx={{
@@ -156,8 +156,8 @@ const HomeServices = () => {
               },
             }}
           >
-            We provides a wide range of services aimed at helping Businesses,
-            Organizations.
+            Campaigns, content, and promotions built for health, fitness, and
+            wellness brands.
           </Typography>
         </Box>
       </Container>
@@ -235,8 +235,8 @@ const HomeServices = () => {
 
         <Box sx={{ textAlign: 'center', mt: 5, color: '#fbfbfb' }}>
           <Typography>
-            Since its establishment in 2016, {AppConfig.appName} has focused on
-            digital marketing
+            {AppConfig.appName} — a specialized digital growth partner for
+            health, fitness, and wellness brands.
           </Typography>
         </Box>
       </Container>

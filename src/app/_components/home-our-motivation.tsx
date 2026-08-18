@@ -14,18 +14,20 @@ import { styled, useMediaQuery, useTheme } from '@mui/material'
 
 const CONTENT = [
   {
-    value: '5+',
-    description: 'Years Providing Services',
+    value: 'Brands',
+    description: 'Gyms, studios, fitness products, wellness and lifestyle brands.',
     image: '/images/medal.png',
   },
   {
-    value: '125+',
-    description: 'Satisfaction Clients',
+    value: 'Creators',
+    description:
+      'Fitness influencers and wellness creators building their audience.',
     image: '/images/smile.png',
   },
   {
-    value: '500+',
-    description: 'Project Complete',
+    value: 'Experts',
+    description:
+      'Coaches, trainers, and health professionals building a personal brand.',
     image: '/images/success.png',
   },
 ]
@@ -47,7 +49,7 @@ const HomeOurMotivation = () => {
         <Grid container spacing={6}>
           <Grid size={{ xs: 12, md: 4 }} sx={{ pr: 4 }}>
             <Box>
-              <SectionTitle>WE WORK HARD, WE PLAY HARD</SectionTitle>
+              <SectionTitle>WHO WE WORK WITH</SectionTitle>
               <Typography
                 variant='h1'
                 sx={{
@@ -56,7 +58,7 @@ const HomeOurMotivation = () => {
                   lineHeight: 1.4,
                 }}
               >
-                We are motivated by a desire to achieve.
+                Built for the people moving health forward.
               </Typography>
               <Typography
                 sx={{
@@ -65,7 +67,9 @@ const HomeOurMotivation = () => {
                   lineHeight: 1.8,
                 }}
               >
-                We enjoy finding simple solutions for complex challenges.
+                Not just more reach — more relevance. Clear strategy, creative
+                people actually want to see, and genuine connections that turn
+                attention into long-term brand value.
               </Typography>
             </Box>
           </Grid>

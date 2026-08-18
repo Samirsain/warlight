@@ -18,8 +18,7 @@ const LinkItem: FC<LinkItemProps> = ({ label, path, icon }) => {
   return (
     <MuiLink
       component={RouterLink}
-      href={`/services/${path}`}
-      target='_blank'
+      href={path}
       sx={{
         textDecoration: 'none',
         alignItems: 'center',

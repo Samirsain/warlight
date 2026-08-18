@@ -29,19 +29,19 @@ export const data: Data[] = [
   },
   {
     id: 2,
-    title: 'UI/UX Design',
+    title: 'Social Media',
     icon: null,
     color: '#ff9e1d',
   },
   {
     id: 3,
-    title: 'Development',
+    title: 'Brand Growth',
     icon: null,
     color: '#3397ff',
   },
   {
     id: 3,
-    title: 'AI & Machine Learning',
+    title: 'Creator Marketing',
     icon: null,
     color: '#5cb460',
   },
@@ -119,13 +119,13 @@ const HomeAbout = () => {
         <Grid container spacing={8}>
           <Grid size={{ xs: 12, md: 7 }} sx={{ pr: 6 }}>
             <Box sx={{ position: 'relative', width: { xs: '100%', md: 400 } }}>
-              <SectionTitle>ABOUT US ?</SectionTitle>
+              <SectionTitle>ABOUT WARLIGHT</SectionTitle>
               <Typography
                 variant='h1'
                 component='h2'
                 sx={{ mb: 3, fontWeight: '700' }}
               >
-                Who Are We?
+                Where Health Meets Digital Growth.
               </Typography>
             </Box>
             <Box sx={{ position: 'relative', zIndex: 2 }}>
@@ -137,7 +137,8 @@ const HomeAbout = () => {
                   mb: 2,
                 }}
               >
-                A company that transforms ideas into beautiful things.
+                The health and wellness industry is built on trust, expertise,
+                and community. Your digital presence should reflect the same.
               </Typography>
               <Typography
                 sx={{
@@ -147,8 +148,10 @@ const HomeAbout = () => {
                   lineHeight: 1.6,
                 }}
               >
-                We are a digital and marketing agency that believes in the power
-                of strategy and creative ideas.
+                Warlight helps health, fitness, and wellness brands turn their
+                online presence into a growth engine — from content and
+                campaigns to promotions and audience engagement, built to get
+                you noticed, build trust, and grow.
               </Typography>
             </Box>
             <Box>

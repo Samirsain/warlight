@@ -6,8 +6,7 @@ import { FooterSectionTitle } from '@/components/footer'
 
 // icons
 import EmailIcon from '@/assets/icons/eva--email-outline.svg'
-import PhoneIcon from '@/assets/icons/eva--phone-outline.svg'
-import LocationIcon from '@/assets/icons/tdesign--location.svg'
+import ChatIcon from '@/assets/icons/ci--chat-conversation.svg'
 
 interface ContactInfoItemProps {
   icon: ReactNode
@@ -69,9 +68,9 @@ const FooterContactInfo: FC = () => {
     <Box sx={{ mb: { xs: 4, md: 0 } }}>
       <FooterSectionTitle title='Contact Info' />
       <ContactInfoItem
-        value='info@example.com'
+        value='info@warlightllc.online'
         label='Response within 24hrs'
-        link='mailto:info@example.com'
+        link='mailto:info@warlightllc.online'
         icon={
           <Box
             component={EmailIcon}
@@ -80,23 +79,12 @@ const FooterContactInfo: FC = () => {
         }
       />
       <ContactInfoItem
-        value='+62 812000xxxx'
-        label='Sen - Jum / 9am - 5:30pm'
-        link='https://wa.me/62812000xxxx'
+        value='@warlightllc'
+        label='DM us on Instagram'
+        link='https://www.instagram.com/warlightllc'
         icon={
           <Box
-            component={PhoneIcon}
-            sx={{ mr: 1.4, width: 22, height: 'auto' }}
-          />
-        }
-      />
-      <ContactInfoItem
-        value='123 Business St., Suite 456, City, State, ZIP Code, Country'
-        label='Office'
-        link='#'
-        icon={
-          <Box
-            component={LocationIcon}
+            component={ChatIcon}
             sx={{ mr: 1.4, width: 22, height: 'auto' }}
           />
         }

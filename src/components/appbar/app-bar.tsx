@@ -5,6 +5,7 @@ import React, { FC, Fragment, useCallback, useMemo } from 'react'
 // components
 import Box from '@mui/material/Box'
 import Container from '@mui/material/Container'
+import Typography from '@mui/material/Typography'
 import AppBarNavigation from './app-bar-navigations'
 import AppBarSwitchDarkMode from './switch-dark-mode'
 import AnimatedHamburgerMenu from './animated-hamburger-menu'
@@ -17,6 +18,9 @@ import { usePathname, useRouter } from 'next/navigation'
 
 // assets
 import Logo from '@/assets/logo.svg'
+
+// configs
+import { AppConfig } from '@/configs'
 
 const AppBar: FC = () => {
   const theme = useTheme()
@@ -113,15 +117,37 @@ const AppBar: FC = () => {
             <Box
               onClick={onClickLogo}
               aria-label={'Back to home'}
-              component={Logo}
               sx={{
-                width: 'auto',
+                display: 'flex',
+                alignItems: 'center',
+                gap: 1.2,
                 cursor: 'pointer',
-                height: shouldFloating ? 32 : 40,
-                transition: (theme: Theme) =>
-                  theme.transitions.create(['transform', 'height']),
               }}
-            />
+            >
+              <Box
+                component={Logo}
+                sx={{
+                  width: 'auto',
+                  height: shouldFloating ? 32 : 40,
+                  transition: (theme: Theme) =>
+                    theme.transitions.create(['transform', 'height']),
+                }}
+              />
+              <Typography
+                component='span'
+                sx={{
+                  fontWeight: '800',
+                  whiteSpace: 'nowrap',
+                  letterSpacing: '0.02rem',
+                  color: 'text.primary',
+                  fontSize: shouldFloating ? 16 : 18,
+                  transition: (theme: Theme) =>
+                    theme.transitions.create(['font-size']),
+                }}
+              >
+                {AppConfig.appName}
+              </Typography>
+            </Box>
             {mobileMatches ? (
               <Box sx={{ ml: 'auto', display: 'flex', alignItems: 'center' }}>
                 <AnimatedHamburgerMenu />

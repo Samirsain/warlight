@@ -8,9 +8,6 @@ import Container from '@mui/material/Container'
 import Typography from '@mui/material/Typography'
 import { StyledButton } from '@/components/core'
 
-// configs
-import { AppConfig } from '@/configs'
-
 // navigation
 import Link from 'next/link'
 
@@ -60,14 +57,14 @@ const HomeCTA = () => {
               variant='h6'
               sx={{ mb: 2, lineHeight: 1.4 }}
             >
-              Ready to create something amazing ?
+              Your brand has something to say.
             </Typography>
             <Typography variant='h2' sx={{ mb: 5, lineHeight: 1.6 }}>
-              Start your business journey better with {AppConfig.appName}
+              Let&apos;s make sure the right people hear it.
             </Typography>
-            <Link href='/contact'>
+            <Link href='/#home-contact'>
               <StyledButton variant='contained' color='light' size='large'>
-                Work With Us
+                Let&apos;s Grow
               </StyledButton>
             </Link>
           </Box>

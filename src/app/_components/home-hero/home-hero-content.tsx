@@ -25,12 +25,12 @@ const HomeHeroContent = () => {
 
   const SERVICES_TEXTS = [
     'Digital Marketing',
-    'UI/UX Design',
-    'Web & Mobile App Development',
-    'Cloud Solutions',
-    'Data & Analytics',
-    'AI & Machine Learning',
-    'E-Commerce Solutions',
+    'Social Media Marketing',
+    'Brand Growth',
+    'Influencer & Creator Marketing',
+    'Targeted Promotions',
+    'Audience Engagement',
+    'Personal Brand Growth',
   ]
 
   useEffect(() => {
@@ -126,9 +126,9 @@ const HomeHeroContent = () => {
               fontWeight: '800',
             }}
           >
-            We are Global Digital Brand
+            Grow Health. Build Influence.
             <br />
-            Tech Agency
+            Create Impact.
           </Typography>
           <Typography
             sx={{
@@ -142,10 +142,12 @@ const HomeHeroContent = () => {
               },
             }}
           >
-            A Digital Modern Agency specializing in <strong>Design </strong>,
-            <strong>Development </strong>, <strong>Branding </strong>,
+            Digital marketing and brand growth for the{' '}
+            <strong>health</strong>, <strong>fitness</strong>, and{' '}
+            <strong>wellness</strong> industry.
             <br />
-            and <strong>Online Marketing </strong> to elevate your business.
+            We help businesses, influencers, and professionals grow their online
+            presence.
           </Typography>
         </Box>
         <motion.div

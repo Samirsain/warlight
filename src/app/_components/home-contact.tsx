@@ -75,7 +75,7 @@ const HomeContact = () => {
                     }}
                     variant='h5'
                   >
-                    Let&apos;s talk
+                    Contact
                   </Typography>
                 </Box>
                 <Typography
@@ -89,8 +89,8 @@ const HomeContact = () => {
                     fontWeight: '800',
                   }}
                 >
-                  Let&apos;s make something
-                  <br /> great together.
+                  Let&apos;s grow
+                  <br /> together.
                 </Typography>
                 <Typography
                   variant='h5'
@@ -101,8 +101,9 @@ const HomeContact = () => {
                     lineHeight: 1.8,
                   }}
                 >
-                  We&apos;re excited to hear from you! Whether you have a
-                  question about our services, want to discuss a new project.
+                  Have a brand, campaign, or growth opportunity you&apos;d like
+                  to discuss? Tell us about your goals and let&apos;s explore
+                  what&apos;s possible.
                 </Typography>
               </Grid>
               <Grid
@@ -134,7 +135,7 @@ const HomeContact = () => {
                   <img src='/images/envelope-1.svg' alt='Footer contact' />
                 </Box>
                 <Box sx={{ mt: 4 }}>
-                  <Link href='/contact' passHref>
+                  <Link href='mailto:info@warlightllc.online' passHref>
                     <StyledButton
                       variant='contained'
                       size='large'
@@ -146,7 +147,7 @@ const HomeContact = () => {
                         />
                       }
                     >
-                      Work With Us
+                      Start a Conversation
                     </StyledButton>
                   </Link>
                 </Box>
@@ -179,7 +180,7 @@ const HomeContact = () => {
                     },
                   })}
                   component='a'
-                  href='mailto:hello@example.com'
+                  href='mailto:info@warlightllc.online'
                 >
                   <>
                     <Box
@@ -194,7 +195,7 @@ const HomeContact = () => {
                         sx={{ mr: 1, width: 26, height: 26 }}
                       />
                       <Typography sx={{ mb: 0 }} variant='h5'>
-                        hello@example.com
+                        info@warlightllc.online
                       </Typography>
                     </Box>
                     <Typography
@@ -217,7 +218,7 @@ const HomeContact = () => {
                     },
                   })}
                   component='a'
-                  href='#'
+                  href='https://www.instagram.com/warlightllc'
                   target={'_blank'}
                   rel='noreferrer'
                 >
@@ -234,14 +235,14 @@ const HomeContact = () => {
                         sx={{ mr: 1, width: 25, height: 25 }}
                       />
                       <Typography sx={{ mb: 0 }} variant='h5'>
-                        +62 8881212121212
+                        @warlightllc
                       </Typography>
                     </Box>
                     <Typography
                       variant='subtitle1'
                       sx={{ color: 'text.secondary' }}
                     >
-                      Mon - Fri / 9 am - 5:00 PM
+                      DM us on Instagram
                     </Typography>
                   </>
                 </Box>

@@ -33,7 +33,7 @@ const plugJakartaSans = Plus_Jakarta_Sans({
 })
 
 export const metadata: Metadata = {
-  title: AppConfig.appName,
+  title: `${AppConfig.appName} — Digital Marketing for Health, Fitness & Wellness`,
   description: AppConfig.appDescription,
 }
 

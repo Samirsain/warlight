@@ -88,7 +88,7 @@ const Footer: FC = () => {
                       fontSize: { xs: 17, md: 20 },
                     }}
                   >
-                    Your Company
+                    {AppConfig.appName}
                   </Typography>
                 </Stack>
                 <Stack sx={{ maxWidth: { xs: '100%', md: '70%' } }}>
@@ -123,7 +123,7 @@ const Footer: FC = () => {
                   sx={{ display: 'flex', alignItems: 'center' }}
                 >
                   <Typography variant='subtitle1' sx={{ fontWeight: '500' }}>
-                    © {year} | Made with
+                    © {year} {AppConfig.appName}. All rights reserved.
                   </Typography>
                   <Box
                     component={HeartIcon}
