@@ -15,7 +15,6 @@ const nextConfig: NextConfig = {
                   params: {
                     overrides: {
                       removeViewBox: false,
-                      removeDimensions: true,
                     },
                   },
                 },
